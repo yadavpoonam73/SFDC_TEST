@@ -15,6 +15,13 @@
           <include name="tearDown"/>
         </methods>
       </class>
+      <class name="com.sample.automation.tests.SfdcLoginTc">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Test1"/>
+        </methods>
+      </class>
     </classes>
   </test>
 </suite>

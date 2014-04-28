@@ -74,11 +74,11 @@ public class SfdcManager {
 		
 		EventFiringMouse mouse = new EventFiringMouse(driver, myListener);	
 		
-		  String[] commands = new String[]{};
+		/*  String[] commands = new String[]{};
 	      String AutoItScriptpath = "D:\\download.exe";
 	      commands = new String[]{AutoItScriptpath };
 	      Runtime.getRuntime().exec(commands);
-		
+		*/
 		
 		ScreenShots sc = new ScreenShots();
 		

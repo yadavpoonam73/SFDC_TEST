@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test on Internet Explorer" failures="1" tests="2" time="41.157" errors="0">
+<testsuite name="Test on Internet Explorer" failures="2" tests="3" time="90.253" errors="0">
   <properties/>
-  <testcase name="Test3" time="24.85" classname="com.sample.automation.tests.SfdcProfileTC"/>
-  <testcase name="Test2" time="0.024" classname="com.sample.automation.tests.SfdcReportTc">
+  <testcase name="Test1" time="0.436" classname="com.sample.automation.tests.SfdcLoginTc">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at javax.imageio.ImageIO.write(ImageIO.java:1538)
+	at com.sample.automation.utils.ScreenShots.captureScreen(Unknown Source)
+	at com.sample.automation.manager.SfdcManager.login(Unknown Source)
+	at com.sample.automation.tests.SfdcLoginTc.Test1(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 17 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="Test3" time="24.196" classname="com.sample.automation.tests.SfdcProfileTC"/>
+  <testcase name="Test2" time="0.002" classname="com.sample.automation.tests.SfdcReportTc">
     <failure type="java.io.IOException" message="Cannot run program &amp;quot;D:\download.exe&amp;quot;: CreateProcess error=2, The system cannot find the file specified">
       <![CDATA[java.io.IOException: Cannot run program "D:\download.exe": CreateProcess error=2, The system cannot find the file specified
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1042)
