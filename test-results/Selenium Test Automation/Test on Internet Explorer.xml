@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test on Internet Explorer" failures="0" tests="1" time="43.508" errors="0">
+  <properties/>
+  <testcase name="Test2" time="14.267" classname="com.sample.automation.tests.SfdcReportTC"/>
+</testsuite>

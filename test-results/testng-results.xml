@@ -1,0 +1,35 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Test Automation">
+    <groups>
+    </groups>
+    <test name="Test on Internet Explorer">
+      <class name="com.sample.automation.tests.SfdcReportTC">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="28093" started-at="2014-04-28T13:43:06Z" finished-at="2014-04-28T13:43:35Z">
+        </test-method>
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)" name="Test2" duration-ms="14267" started-at="2014-04-28T13:43:35Z" finished-at="2014-04-28T13:43:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[javed.nehal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome$123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Activities with User -Unfiled]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1002" started-at="2014-04-28T13:43:49Z" finished-at="2014-04-28T13:43:50Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
