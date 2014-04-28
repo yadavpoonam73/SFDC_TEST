@@ -12,7 +12,7 @@
 <body>
 <h1>Test on Internet Explorer</h1>
 <p>
-  Test duration: 90.102s
+  Test duration: 118.943s
    <br/><input type="checkbox" onclick="toggleAllResult(this)" value="result_p" checked="" id="top-filter" />
 <span class="pass-label">P</span>ass
 <input type="checkbox" onclick="toggleAllResult(this)" value="result_f" checked="" id="top-filter"/>
@@ -23,8 +23,10 @@
 
 
 
+
+
   <table class="resultsTable">
-    <tr><th colspan="100%" class="header failed">Failed Tests</th></tr>
+    <tr><th colspan="100%" class="header passed">Passed Tests</th></tr>
           <tr>
         <td colspan="100%" class="group">			SfdcLoginTc
 	</td>
@@ -38,7 +40,7 @@
   <td>
     </td>
   <td class="duration">
-    0.436s
+    37.324s
   </td>
   <td class="result">
         
@@ -46,33 +48,29 @@
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.lang.NullPointerException</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              javax.imageio.ImageIO.write(ImageIO.java:1538)<br />
-              com.sample.automation.utils.ScreenShots.captureScreen(Unknown Source)<br />
-              com.sample.automation.manager.SfdcManager.login(Unknown Source)<br />
-              com.sample.automation.tests.SfdcLoginTc.Test1(Unknown Source)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:483)<br />
-              org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:644)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:546)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:700)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1002)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)<br />
-              org.testng.TestRunner.runWorkers(TestRunner.java:908)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:617)<br />
-              org.testng.TestRunner.run(TestRunner.java:498)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:329)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:31)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:355)<br />
-              org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:142)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
-              java.lang.Thread.run(Thread.java:744)<br />
-                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="100%" class="group">			SfdcProfileTC
+	</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+          Test3
+      </td>
+
+  <td>
+    </td>
+  <td class="duration">
+    33.217s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"javed.nehal@gmail.com", "Welcome$123", "Javed Nehal"</span><br />
+    
+        
+
       </td>
 </tr>
           <tr>
@@ -88,98 +86,11 @@
   <td>
     </td>
   <td class="duration">
-    0.002s
+    17.863s
   </td>
   <td class="result">
         
           <i>Method arguments: </i><span class="arguments">"javed.nehal@gmail.com", "Welcome$123", "Activities with User -Unfiled"</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b><span style="color:red">F </span>java.io.IOException: Cannot run program &quot;D:\download.exe&quot;: CreateProcess error=2, The system cannot find the file specified</b></a><br />
-    <div class="stackTrace" id="exception-1">
-              java.lang.ProcessBuilder.start(ProcessBuilder.java:1042)<br />
-              java.lang.Runtime.exec(Runtime.java:620)<br />
-              java.lang.Runtime.exec(Runtime.java:485)<br />
-              com.sample.automation.manager.SfdcManager.login1(Unknown Source)<br />
-              com.sample.automation.tests.SfdcReportTc.Test2(Unknown Source)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:483)<br />
-              org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:644)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:546)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:700)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1002)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)<br />
-              org.testng.TestRunner.runWorkers(TestRunner.java:908)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:617)<br />
-              org.testng.TestRunner.run(TestRunner.java:498)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:329)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:31)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:355)<br />
-              org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:142)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
-              java.lang.Thread.run(Thread.java:744)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">java.io.IOException: CreateProcess error=2, The system cannot find the file specified</a><br />
-        <div class="stackTrace" id="exception-2">
-                      java.lang.ProcessImpl.create(Native Method)<br />
-                      java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:386)<br />
-                      java.lang.ProcessImpl.start(ProcessImpl.java:137)<br />
-                      java.lang.ProcessBuilder.start(ProcessBuilder.java:1023)<br />
-                      java.lang.Runtime.exec(Runtime.java:620)<br />
-                      java.lang.Runtime.exec(Runtime.java:485)<br />
-                      com.sample.automation.manager.SfdcManager.login1(Unknown Source)<br />
-                      com.sample.automation.tests.SfdcReportTc.Test2(Unknown Source)<br />
-                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-                      java.lang.reflect.Method.invoke(Method.java:483)<br />
-                      org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:644)<br />
-                      org.testng.internal.Invoker.invokeMethod(Invoker.java:546)<br />
-                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:700)<br />
-                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1002)<br />
-                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)<br />
-                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)<br />
-                      org.testng.TestRunner.runWorkers(TestRunner.java:908)<br />
-                      org.testng.TestRunner.privateRun(TestRunner.java:617)<br />
-                      org.testng.TestRunner.run(TestRunner.java:498)<br />
-                      org.testng.SuiteRunner.runTest(SuiteRunner.java:329)<br />
-                      org.testng.SuiteRunner.access$000(SuiteRunner.java:31)<br />
-                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:355)<br />
-                      org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:142)<br />
-                      java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
-                      java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
-                      java.lang.Thread.run(Thread.java:744)<br />
-                  </div>
-          </div>
-      </td>
-</tr>
-      </table>
-
-
-  <table class="resultsTable">
-    <tr><th colspan="100%" class="header passed">Passed Tests</th></tr>
-          <tr>
-        <td colspan="100%" class="group">			SfdcProfileTC
-	</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-          Test3
-      </td>
-
-  <td>
-    </td>
-  <td class="duration">
-    24.196s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"javed.nehal@gmail.com", "Welcome$123", "Javed Nehal"</span><br />
     
         
 
