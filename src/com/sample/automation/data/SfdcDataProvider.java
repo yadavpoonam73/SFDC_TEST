@@ -10,7 +10,7 @@ public class SfdcDataProvider {
 	public static Object[][] extract() throws Exception{
       
 		TableData l=new TableData();
-		Object[][] retObjArr=l.getTableArray("C:\\Users\\jnehal\\git\SFDC_TEST_REP\\SampleTestAutomationProject\\resources\\data\\testdata.xls",
+		Object[][] retObjArr=l.getTableArray("C:\\Users\\jnehal\\git\\SFDC_TEST_REP\\SampleTestAutomationProject\\resources\\data\\testdata.xls",
               "userlogin", "Credentials");
       return(retObjArr);
 	}
